@@ -1,11 +1,24 @@
+
+
+def new_board():
+         tic_tac_toe_board = [
+        [None,None,None],
+        [None,None,None],
+        [None,None,None]
+    ]
+         return tic_tac_toe_board
+
 board = new_board()
 
 # Loop thrrugh turns
 #loop:
     #TODO: need to create infinite loop
     # Need to select current player
-    current_player = pass
+    #current_player = pass
 # Print the current board state
+
+def render():
+     
 
 render(board)
 
