@@ -44,10 +44,10 @@ class TicTacToeBoard(tk.Tk):
                     sticky="nsew"
                 )
 
-    def main():
-        """ create  the game loop"""
-        board = TicTacToeBoard()
-        board.mainloop()
+def main():
+    #create  the game loop
+    board = TicTacToeBoard()
+    board.mainloop()
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()
